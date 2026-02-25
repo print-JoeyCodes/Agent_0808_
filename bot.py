@@ -18,7 +18,7 @@ async def on_ready():
 async def on_raw_reaction_add(payload):
     # Your reaction code
     YOUR_MESSAGE_ID = 1234567890
-    YOUR_ROLE_NAME = "Member"
+    YOUR_ROLE_NAME = "Testing Role"
     
     if payload.message_id == YOUR_MESSAGE_ID:
         guild = bot.get_guild(payload.guild_id)
